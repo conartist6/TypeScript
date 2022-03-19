@@ -3,7 +3,7 @@ interface ErrorOptions {
 }
 
 interface Error {
-    cause?: Error;
+    cause?: any;
 }
 
 interface ErrorConstructor {
